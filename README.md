@@ -182,7 +182,7 @@ angular.module('rtfmApp')
 AngularFire refs can get converted into AngularFire "objects". These "objects" can be bound to ```$scope``` using
 AngularFire's [$bindTo](https://www.firebase.com/docs/web/libraries/angular/api.html#angularfire-firebaseobject-bindto-scope-varname) function. This sets up 3-way binding from your view, through ```$scope``` and all the way back to your Firebase data store. You can edit these AngularFire "objects" in place in your view and watch the changes propagate throughout your entire app.
 
-- Edit ```app/views/thread.html``` to create a inputs to add comments under the thread as well as read out all
+- Edit ```app/views/thread.html``` to create inputs to add comments under the thread as well as read out all
 existing comments.
 
 ```
